@@ -105,13 +105,15 @@
                 window.location.href="https://lancab780z-maker.github.io/LCM2025/";
             }
 			else{
-				document.getElementById("message").innerHTML = "acceso denegado";
-				document.getElementByID("message").style.color = "red"
-				document.getElementByID("message").style.marginTop = "10px"
+				var msg = document.getElementById("message");
+				msg.innerHTML = "Acceso denegado";
+				msg.style.color = "red";
+				msg.style.marginTop = "10px";
 			}
         });
     </script>
 </body>
 
 </html>
+
 
