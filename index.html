@@ -98,16 +98,20 @@
             if (email==="eber@email.com" && password==="123"){
 				window.location.href="https://lancab780z-maker.github.io/LCM2025/";
 			}
-            if (email==="landon@email.com" && password==="123"){
+            else if (email==="landon@email.com" && password==="123"){
                 window.location.href="https://lancab780z-maker.github.io/LCM2025/";
-			if (email==="user@email.com" && password==="123"){
+			}
+			else if (email==="user@email.com" && password==="123"){
                 window.location.href="https://lancab780z-maker.github.io/LCM2025/";
             }
 			else{
 				document.getElementById("message").innerHTML = "acceso denegado";
+				document.getElementByID("message").style.color = "red"
+				document.getElementByID("message").style.marginTop = "10px"
 			}
         });
     </script>
 </body>
 
 </html>
+
